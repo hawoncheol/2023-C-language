@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
-	int N;
-	printf("10000~99999 사이의 양의 정수 입력: ");
-	scanf("%d", &N);
-	printf("%d", (N/100)%10);
+	char N;
+	int a;
+	printf("문자 입력: ");
+	scanf("%c", &N);
+	a = ('A' <= N) && (N <= 'Z') || ('a' <= N) && (N <= 'z') ? 1 : 0;
+	printf("%d", a);
 }
