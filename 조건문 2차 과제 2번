@@ -1,0 +1,131 @@
+#include <stdio.h>
+
+int main()
+{
+	int N, M, O, i, j, k, Pizza, Burger, Salad, Icecream, Beverage, Total;
+	Pizza = 15000;
+	Burger = 5000;
+	Salad = 4500;
+	Icecream = 800;
+	Beverage = 500;
+	Total = 0;
+	scanf("%d %d %d", &N, &M, &O);
+	switch (N) {
+	case 1:
+		printf("Pizza\n");
+		break;
+	case 2:
+		printf("Burger\n");
+		break;
+	case 3:
+		printf("Salad\n");
+		break;
+	case 4:
+		printf("Ice cream\n");
+		break;
+	case 5:
+		printf("Beverage\n");
+		break;
+	default:
+		printf("None\n");
+		break;
+	}
+	switch (M) {
+	case 1:
+		printf("Pizza\n");
+		break;
+	case 2:
+		printf("Burger\n");
+		break;
+	case 3:
+		printf("Salad\n");
+		break;
+	case 4:
+		printf("Ice cream\n");
+		break;
+	case 5:
+		printf("Beverage\n");
+		break;
+	default:
+		printf("None\n");
+		break;
+	}
+	switch (O) {
+	case 1:
+		printf("Pizza\n");
+		break;
+	case 2:
+		printf("Burger\n");
+		break;
+	case 3:
+		printf("Salad\n");
+		break;
+	case 4:
+		printf("Ice cream\n");
+		break;
+	case 5:
+		printf("Beverage\n");
+		break;
+	default:
+		printf("None\n");
+		break;
+	}
+	switch (N) {
+	case 1:
+		Total += Pizza;
+		break;
+	case 2:
+		Total += Burger;
+		break;
+	case 3:
+		Total += Salad;
+		break;
+	case 4:
+		Total += Icecream;
+		break;
+	case 5:
+		Total += Beverage;
+		break;
+	default:
+		Total += 0;
+	}
+	switch (M) {
+	case 1:
+		Total += Pizza;
+		break;
+	case 2:
+		Total += Burger;
+		break;
+	case 3:
+		Total += Salad;
+		break;
+	case 4:
+		Total += Icecream;
+		break;
+	case 5:
+		Total += Beverage;
+		break;
+	default:
+		Total += 0;
+	}
+	switch (O) {
+	case 1:
+		Total += Pizza;
+		break;
+	case 2:
+		Total += Burger;
+		break;
+	case 3:
+		Total += Salad;
+		break;
+	case 4:
+		Total += Icecream;
+		break;
+	case 5:
+		Total += Beverage;
+		break;
+	default:
+		Total += 0;
+	}
+	printf("Total:%dwon", Total);
+}
