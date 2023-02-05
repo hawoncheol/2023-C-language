@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+	int N, M, O;
+	N = 0, M = 0, O = 0;
+	scanf("%d %d %d", &N, &M, &O);
+	if (N + M == O)
+		printf("'+'\n");
+	if (N - M == O)
+		printf("'-'\n");
+	if (N * M == O)
+		printf("'*'\n");
+	if (N / M == O)
+		printf("'/'\n");
+}
